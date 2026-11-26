@@ -1,0 +1,10 @@
+#!/bin/bash
+set -euo pipefail
+LAB_ROOT="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+PYTHON="$LAB_ROOT/.venv/bin/python"
+if [[ ! -x "$PYTHON" ]]; then
+  printf '%s\n' '缺少项目虚拟环境。请先用 Python 3.11+ 运行 python3 -m venv .venv。' >&2
+  exit 2
+fi
+cd -- "$LAB_ROOT"
+exec "$PYTHON" -m mini_agent "$@"

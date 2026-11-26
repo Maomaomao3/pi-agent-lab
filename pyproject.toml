@@ -1,0 +1,6 @@
+[project]
+name = "pi-agent-lab"
+version = "0.1.0"
+description = "通过逐课练习手写本地 Agent 与 Skill 执行机制"
+requires-python = ">=3.11"
+dependencies = []

@@ -1,0 +1,5 @@
+INFO request_id=demo-001 path=/health status=200 duration_ms=4
+INFO request_id=demo-002 path=/orders status=200 duration_ms=31
+ERROR request_id=demo-003 path=/orders error=database_timeout duration_ms=3000
+WARN request_id=demo-004 queue=notifications pending=120
+INFO request_id=demo-005 path=/health status=200 duration_ms=5
