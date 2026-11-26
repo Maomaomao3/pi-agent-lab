@@ -6,6 +6,8 @@
 
 ## 从哪里开始
 
+先按 [课前准备：VS Code 上传到 GitHub](lessons/00-github-publish.md) 完成远程发布，再进入第一课。
+
 1. 阅读 [学习计划](LEARNING_PLAN.md)，了解每课要完成什么。
 2. 运行环境检查和离线演示。
 3. 在 VS Code 中按 [第一课 A：命令与逐行代码](lessons/01-vscode-hands-on.md) 开始，再参考 [第一课完整说明](lessons/01-model-interface.md)。

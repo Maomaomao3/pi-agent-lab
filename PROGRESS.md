@@ -13,7 +13,7 @@
 
 ## Git 同步
 
-学习目录已启用独立仓库，主分支为 `main`。远程地址尚未提供，上传状态为待配置；本地提交记录用 `git log --oneline` 查看。
+学习目录已启用独立仓库，主分支为 `main`。用户选择 GitHub；本地初始提交已经完成，下一步由用户在 VS Code 中登录并发布私有仓库。远程上传尚未验证，本地记录用 `git log --oneline` 查看。
 
 ## 课程状态
 
@@ -30,6 +30,8 @@
 | 09 回归测试与 CLI | 待开始 | 固定样例、断言和退出码 |
 
 ## 当前下一步
+
+先完成 `lessons/00-github-publish.md` 中的 GitHub 发布流程，再核对 `git remote -v` 和远程文件。
 
 在 VS Code 中打开练习目录，按 `lessons/01-vscode-hands-on.md` 的命令和注释逐行编写 `exercises/lesson01.py` 中的 `build_messages`。
 
