@@ -10,12 +10,15 @@
 - [x] 环境检查、离线演示和 5 项辅导设施测试通过。
 - [x] 9 个源码对照路径可读取；原有 4321 文档服务保持运行。
 - [x] 准备 Git 管理范围与每课同步约定。
+- [x] 创建 GitHub 私有仓库，完成首次推送并核对远程提交。
 
 ## Git 同步
 
 学习目录已启用独立仓库，主分支为 `main`。用户已创建 GitHub 仓库，`origin` 已配置为 `https://github.com/Maomaomao3/pi-agent-lab.git`。
 
-2026-11-27：环境检查和 5 项辅导设施测试再次通过；已跟踪的文件不包含虚拟环境、本机 `.env` 或 `.runs/`，对已有提交的常见凭证模式检查未发现匹配。首次推送尚未完成：辅导终端无法取得 GitHub 用户名，需要在 VS Code 内置终端完成本机认证和推送。当前不能记录为已上传。
+2026-11-27：环境检查和 5 项辅导设施测试再次通过；已跟踪的文件不包含虚拟环境、本机 `.env` 或 `.runs/`，对首次推送前已有提交的常见凭证模式检查未发现匹配。
+
+用户已在 VS Code 内置终端完成首次推送。首次核对时，本地 `HEAD`、`origin/main` 与通过 `git ls-remote --heads origin main` 读取的 GitHub `main` 均为 `539a4b95bd3d90b8aaee0fa3ff04275d6c3dc757`；工作区干净，`main` 已跟踪 `origin/main`。后续提交继续按 Git 同步约定上传。
 
 ## 课程状态
 
@@ -33,7 +36,7 @@
 
 ## 当前下一步
 
-先完成 `lessons/00-github-publish.md` 中“已有仓库：首次推送”步骤，再核对远程分支和文件。仓库已创建，不再重复执行 `Publish to GitHub`。
+GitHub 课前准备已完成。现在开始第一课 A：手写消息组装。
 
 在 VS Code 中打开练习目录，按 `lessons/01-vscode-hands-on.md` 的命令和注释逐行编写 `exercises/lesson01.py` 中的 `build_messages`。
 

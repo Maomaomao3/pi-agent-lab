@@ -81,6 +81,8 @@ git status -sb
 
 本项目已经连接用户创建的仓库：`https://github.com/Maomaomao3/pi-agent-lab.git`，远程名称为 `origin`。无需重复执行 `git remote add origin`。
 
+本项目于 2026-11-27 完成首次推送，并核对了远程 `main` 与本地提交一致。下面保留首次操作供复习；继续学习时使用后面的日常同步流程。
+
 在 VS Code 点击“终端 → 新建终端”，执行：
 
 ```bash
