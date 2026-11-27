@@ -18,9 +18,13 @@
 
 ## 当前状态
 
-本地使用 `main` 分支。远程仓库地址尚未提供，因此当前不能宣称资料已经上传到远程。
+本地使用 `main` 分支。用户已创建 GitHub 仓库，`origin` 已配置为：
 
-用户已选择 GitHub，先按 [VS Code 发布步骤](lessons/00-github-publish.md) 登录并创建私有仓库。也可在已有远程仓库时配置对应的 HTTPS 或 SSH 克隆地址。不需要在聊天中提供密码或 Token；认证在本机完成。
+```text
+https://github.com/Maomaomao3/pi-agent-lab.git
+```
+
+2026-11-27：远程地址已在本地配置；首次推送尚未完成。代理可用，但辅导终端缺少 GitHub 命令行认证，读取远程时返回无法获取用户名。下一步在 VS Code 新建内置终端，按 [已有仓库的首次推送步骤](lessons/00-github-publish.md) 完成认证和上传。不需要再次运行 `Publish to GitHub`，也不需要在聊天中提供密码或 Token。
 
 ## 在 VS Code 中完成一次学习提交
 

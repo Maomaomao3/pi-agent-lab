@@ -13,7 +13,9 @@
 
 ## Git 同步
 
-学习目录已启用独立仓库，主分支为 `main`。用户选择 GitHub；本地初始提交已经完成，下一步由用户在 VS Code 中登录并发布私有仓库。远程上传尚未验证，本地记录用 `git log --oneline` 查看。
+学习目录已启用独立仓库，主分支为 `main`。用户已创建 GitHub 仓库，`origin` 已配置为 `https://github.com/Maomaomao3/pi-agent-lab.git`。
+
+2026-11-27：环境检查和 5 项辅导设施测试再次通过；已跟踪的文件不包含虚拟环境、本机 `.env` 或 `.runs/`，对已有提交的常见凭证模式检查未发现匹配。首次推送尚未完成：辅导终端无法取得 GitHub 用户名，需要在 VS Code 内置终端完成本机认证和推送。当前不能记录为已上传。
 
 ## 课程状态
 
@@ -31,7 +33,7 @@
 
 ## 当前下一步
 
-先完成 `lessons/00-github-publish.md` 中的 GitHub 发布流程，再核对 `git remote -v` 和远程文件。
+先完成 `lessons/00-github-publish.md` 中“已有仓库：首次推送”步骤，再核对远程分支和文件。仓库已创建，不再重复执行 `Publish to GitHub`。
 
 在 VS Code 中打开练习目录，按 `lessons/01-vscode-hands-on.md` 的命令和注释逐行编写 `exercises/lesson01.py` 中的 `build_messages`。
 
